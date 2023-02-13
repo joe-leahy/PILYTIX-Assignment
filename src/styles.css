@@ -1,0 +1,227 @@
+.App {
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -5px;
+}
+
+.chartsContainer {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 8px;
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.lineChart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 0.8;
+  height: 45%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.barChart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.8;
+  height: 45%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.tooltip {
+  height: 13rem;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #74a9f9, rgba(124, 199, 251, 0.5));
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.lineTooltip {
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #74a9f9, rgba(124, 199, 251, 0.5));
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.label {
+  font-size: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: underline;
+}
+.value {
+  font-size: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.info {
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.chartTitle {
+  width: 100%;
+  display: flex;
+  flex: 0.1;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataContainer {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.dataContainerTop {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.dataContainerMid {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.dataContainerBottom {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  color: #22223b;
+  margin-bottom: 1rem;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.infoLine {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.infoLabel {
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.infoValue {
+  text-align: right;
+}
+
+.guageTitle {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+.guageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.text-gradient {
+  background: linear-gradient(to right, #3cccab 0%, #50eac0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buttonContainer {
+  display: flex;
+  flex: 0.15;
+}
+button {
+  background: linear-gradient(to right, #74a9f9, #7cc7fb);
+  width: 6rem;
+  height: 2rem;
+}
+
+.prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  height: 12.5%;
+  width: 6%;
+  border-radius: 20px;
+  top: 50%;
+  left: 3%;
+  color: white;
+  border: 2px solid;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  height: 12.5%;
+  width: 6%;
+  border-radius: 20px;
+  top: 50%;
+  right: 2%;
+  color: white;
+  border: 2px solid;
+}
+
+.next:hover {
+  background-color: rgba(80, 234, 192, 0.8);
+}
+.prev:hover {
+  background-color: rgba(124, 199, 251, 0.8);
+}
