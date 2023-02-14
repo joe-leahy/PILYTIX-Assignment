@@ -1,3 +1,5 @@
+![Alt text](/appPreview.png?raw=true "App Preview")
+
 # Opportunity Card React Take-Home Assignment
 
 _Author: Hendrik Kits van Heyningen_
